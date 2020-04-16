@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="Methods" extends="struts-default">
+
+        <action name="add" class="com.Kotori.Struts2.methods" method="add">
+            <result name="success">/index.jsp</result>
+        </action>
+
+        <action name="add" class="com.Kotori.Struts2.methods" method="add">
+            <result name="success">/index.jsp</result>
+        </action>
+
+        <action name="delete" class="com.Kotori.Struts2.methods" method="delete">
+            <result name="success">/index.jsp</result>
+        </action>
+
+        <action name="update" class="com.Kotori.Struts2.methods" method="update">
+            <result name="success">/index.jsp</result>
+        </action>
+
+        <action name="query" class="com.Kotori.Struts2.methods" method="query">
+            <result name="success">/index.jsp</result>
+        </action>
+
+    </package>
+</struts>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="package_myForm" extends="struts-default">
+        <action name="myForm" class="com.Kotori.myForm.myFormAction">
+            <result name="success">/res.jsp</result>
+        </action>
+    </package>
+
+    <package name="package_myForm2" extends="struts-default">
+        <!--全局结果页-->
+        <global-results>
+            <result>/res.jsp</result>
+        </global-results>
+        <action name="myForm2" class="com.Kotori.myForm.myFormAction2">
+            <result name="success">/res.jsp</result>
+        </action>
+    </package>
+
+    <package name="package_myForm3" extends="struts-default">
+        <action name="myForm3" class="com.Kotori.myForm.myFormAction3">
+            <result name="success">/res.jsp</result>
+        </action>
+    </package>
+
+    <package name="package_myForm4" extends="struts-default">
+        <action name="myForm4" class="com.Kotori.myForm.myFormAction4">
+            <result name="success">/res.jsp</result>
+        </action>
+    </package>
+
+    <package name="package_myForm5" extends="struts-default">
+        <action name="myForm5" class="com.Kotori.myForm.myFormAction4">
+            <result name="success">/res.jsp</result>
+        </action>
+    </package>
+
+</struts>

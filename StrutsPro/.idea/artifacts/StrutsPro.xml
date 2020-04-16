@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="StrutsPro">
+    <output-path>$PROJECT_DIR$/out/artifacts/StrutsPro</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="StrutsPro/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="StrutsPro" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

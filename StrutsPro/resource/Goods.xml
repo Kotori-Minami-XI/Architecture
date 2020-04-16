@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="Goods" extends="struts-default">
+        <action name="goods_*" class="com.Kotori.Struts2.goods" method="{1}">
+            <!-- 根据结果，跳转到相应网页 -->
+            <result name="success">/index.jsp</result>
+            <allowed-methods>find, delete,update</allowed-methods>
+        </action>
+
+    </package>
+</struts>
